@@ -6,7 +6,7 @@
 /*   By: framiran <framiran@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/06 11:25:31 by framiran          #+#    #+#             */
-/*   Updated: 2025/05/06 13:11:06 by framiran         ###   ########.fr       */
+/*   Updated: 2025/05/07 12:28:42 by framiran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,5 @@
 
 int	ft_print_char(int c)
 {
-	write(1, &c, 1);
-	return (1);
+	return (write(1, &c, 1));
 }

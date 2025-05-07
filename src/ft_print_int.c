@@ -6,7 +6,7 @@
 /*   By: framiran <framiran@student.42porto.com>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/06 11:25:50 by framiran          #+#    #+#             */
-/*   Updated: 2025/05/06 16:27:04 by framiran         ###   ########.fr       */
+/*   Updated: 2025/05/07 12:44:37 by framiran         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,9 +26,10 @@ static int	calculate_divisions(int n)
 	}
 	return (i);
 }
+
 static int	int_power(int base, int exp)
 {
-	int result;
+	int	result;
 
 	result = 1;
 	while (exp > 0)
@@ -41,7 +42,7 @@ static int	int_power(int base, int exp)
 
 int	ft_print_int(int n)
 {
-	int number;
+	int	number;
 	int	written_chars;
 	int	max_divisions;
 
